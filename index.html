@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>仕事算・損益算</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        .section {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .example {
+            background: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        .important {
+            color: red;
+            font-weight: bold;
+        }
+
+        .point {
+            background: #e8f4ff;
+            padding: 10px;
+            border-left: 5px solid blue;
+            margin: 10px 0;
+        }
+    </style>
+    <style>
+        body {
+            font-family: sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.8;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .section {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .example {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>仕事算・損益算</h1>
+
+    <div class="section">
+
+        <h2>仕事算</h2>
+
+        <h3>仕事算ってなんなん？💢</h3>
+
+        <p>
+            「何人で作業すると何日で終わるか」を考える問題。
+        </p>
+
+        <div class="example">
+            Aさんは1人で10日かかる。<br>
+            Bさんは1人で15日かかる。<br>
+            2人なら何日で終わる？
+        </div>
+
+        <h3>解き方</h3>
+
+        <p>
+            まず、<span class="important">仕事全体を「1」</span>と考える。
+        </p>
+
+        <ul>
+            <li>10日で終わる → 1日で <span class="important">1/10</span></li>
+            <li>15日で終わる → 1日で <span class="important">1/15</span></li>
+        </ul>
+
+        <p>
+            2人で作業するから
+        </p>
+
+        <p class="important">
+            1/10 + 1/15 = 1/6
+        </p>
+
+        <p>
+            ⇑1日に仕事全体の6分の1進むって意味。
+        </p>
+
+        <p class="important">
+            答え：6日
+        </p>
+
+        <div class="point">
+            ★↓授業中ガム噛みたいよね↓★<br>
+            「何日で終わる」があったら、1日分の仕事量に直す。
+        </div>
+
+        <h3>↓めんどくさいって↓</h3>
+
+        <ul>
+            <li><span class="important">仕事全体を「1」って考える</span></li>
+            <li><span class="important">1日分の仕事量を求める</span></li>
+            <li><span class="important">複数人なら足し算</span></li>
+        </ul>
+
+    </div>
+
+    <div class="section">
+
+        <h2>損益算</h2>
+
+        <h3>損益算ってなに？💢</h3>
+
+        <p>
+            商品を売ったときの利益や損失を求める問題。
+        </p>
+
+        <div class="example">
+            100円で仕入れて120円で売った
+        </div>
+
+        <p class="important">
+            利益 = 売価 − 原価
+        </p>
+
+        <p>
+            120 − 100 = 20
+        </p>
+
+        <p class="important">
+            利益は20円
+        </p>
+
+        <div class="example">
+            100円で仕入れて80円で売った
+        </div>
+
+        <p class="important">
+            損失 = 原価 − 売価
+        </p>
+
+        <p>
+            100 − 80 = 20
+        </p>
+
+        <p class="important">
+            損失は20円
+        </p>
+
+        <h3>利益率</h3>
+
+        <p class="important">
+            利益率 = 利益 ÷ 原価 × 100
+        </p>
+
+        <div class="example">
+            利益20円、原価100円
+        </div>
+
+        <p>
+            20 ÷ 100 × 100 = 20%
+        </p>
+
+        <p class="important">
+            利益率20%
+        </p>
+
+        <h3>割合・％・小数(横列が同じ意味やで)</h3>
+
+        <table border="1" cellpadding="8">
+            <tr>
+                <th>割合</th>
+                <th>％</th>
+                <th>小数</th>
+            </tr>
+            <tr>
+                <td>1割</td>
+                <td>10％</td>
+                <td>0.1</td>
+            </tr>
+            <tr>
+                <td>2割</td>
+                <td>20％</td>
+                <td>0.2</td>
+            </tr>
+            <tr>
+                <td>3割</td>
+                <td>30％</td>
+                <td>0.3</td>
+            </tr>
+            <tr>
+                <td>4割</td>
+                <td>40％</td>
+                <td>0.4</td>
+            </tr>
+            <tr>
+                <td>5割</td>
+                <td>50％</td>
+                <td>0.5</td>
+            </tr>
+            <tr>
+                <td>6割</td>
+                <td>60％</td>
+                <td>0.6</td>
+            </tr>
+            <tr>
+                <td>7割</td>
+                <td>70％</td>
+                <td>0.7</td>
+            </tr>
+            <tr>
+                <td>8割</td>
+                <td>80％</td>
+                <td>0.8</td>
+            </tr>
+            <tr>
+                <td>9割</td>
+                <td>90％</td>
+                <td>0.9</td>
+            </tr>
+            <tr>
+                <td>10割</td>
+                <td>100％</td>
+                <td>1.0</td>
+            </tr>
+        </table>
+
+        <div class="point">
+            ★↓こゆこと↓★<br>
+            1割 = 10％ = 0.1
+            <br>
+            2割 = 20％ = 0.2
+            <br>
+            5割 = 50％ = 0.5
+            <br>
+            10割 = 100％ = 1.0
+        </div>
+
+        <h3>○％増し・○％引き</h3>
+
+        <p class="important">
+            ○％増し → 元の値 × (1 + 少数の割合)
+        </p>
+
+        <p class="important">
+            ○％引き → 元の値 × (1 − 少数の割合)
+        </p>
+
+        <div class="example">
+            1000円を20％増し
+        </div>
+
+        <p>
+            1000 × 1.2 = 1200円
+        </p>
+
+        <div class="example">
+            1000円を20％引き
+        </div>
+
+        <p>
+            1000 × 0.8 = 800円
+        </p>
+
+        <div class="point">
+            ★↓公式みたいなやつ↓★
+
+            <ul>
+                <li><span class="important">利益 = 売価 − 原価</span></li>
+                <li><span class="important">損失 = 原価 − 売価</span></li>
+                <li><span class="important">利益率 = 利益 ÷ 原価 × 100</span></li>
+                <li><span class="important">○％増し = 1 + 少数の割合</span></li>
+                <li><span class="important">○％引き = 1 − 少数の割合</span></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
